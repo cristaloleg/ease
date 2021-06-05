@@ -1,6 +1,16 @@
 # ease
 easy serving
 
+## Install
+
+```
+# From Docker Hub
+docker pull olegkovalov/ease:latest
+
+# or from Github Packages
+docker pull ghcr.io/cristaloleg/ease:latest
+```
+
 ## Usage
 
 In your `Dockerfile` just use in `FROM` directive and `COPY` your assets to `assets` folder.
